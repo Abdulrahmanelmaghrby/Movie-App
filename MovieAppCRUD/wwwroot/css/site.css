@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+textarea{
+    resize:none;
+}
+
+/*Custom style*/
+/*chrome-safari-opera-edge*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+    margin:0;
+}
+/*fire fox*/
+input[type=number]{
+    -moz-appearance:textfield;
+}
+.poster {
+    min-height: 300px;
+    background-size: 100%;
+    background-position:center;
+    transition:all 0.3s ease-in-out;
+} 
+.poster:hover {
+    background-size: 125%;
+    transition: all 0.3s ease-in-out;
+ }
+.mt-60-px{
+    margin-top:60px;
+}
